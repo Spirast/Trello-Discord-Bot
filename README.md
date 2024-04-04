@@ -52,4 +52,7 @@ node index.js
 
 If you got the text saying 'yourbotname is ready for operation!!' then it's running!
 
->if you need help contact me on discord: spirast
+
+# IMPORTANT
+Make sure your Trello board is public, and that all of these are turned on in the bot section.
+![image](https://github.com/Spirast/Trello-Discord-Bot/assets/107292778/fe11191e-0b7c-4f57-9a01-e9c0387e0183)
