@@ -3,13 +3,9 @@ const { REST, Routes } = require('discord.js')
 const token = process.env.TOKEN
 const commands = [
     {
-        name: 'getprogress',
+        name: 'progress',
         description: 'gets progress from trello'
     },
-    {
-        name: '8ball',
-        description: 'magic 8 ball'
-    }
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
