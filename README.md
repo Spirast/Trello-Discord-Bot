@@ -32,6 +32,7 @@ GUILD_ID = yourserverid // you can get your discord server id by enabling develo
 APPLICATION_ID = yourbotid // get this by going back to your application and going to the basic information section and finding the application id
 TRELLO_API_KEY = trelloapikey
 BOARD_ID = yourboardid // the code after trello.com/b/
+BOARD_NAME = yourboardname // you can make this whatever you want, make sure its a string (covered in quotations)
 ```
 Install the latest version of node.js and open command prompt.
 >https://nodejs.org/en
