@@ -33,6 +33,8 @@ APPLICATION_ID = yourbotid // get this by going back to your application and goi
 TRELLO_API_KEY = trelloapikey
 BOARD_ID = yourboardid // the code after trello.com/b/
 BOARD_NAME = yourboardname // you can make this whatever you want, make sure its a string (covered in quotations)
+FOOTER_TEXT = yourfootertext // you can make this whatever you want, make sure its a string (covered in quotations)
+THUMBNAIL_URL = yourthumbnailurl // set this to the url of the image you want the thumbnail to be, make sure its a string (covered in quotations)
 ```
 Install the latest version of node.js and open command prompt.
 >https://nodejs.org/en
