@@ -54,9 +54,9 @@ client.on('interactionCreate', async (interaction) => {
                 .setFields(fieldz)
                 .setColor('Purple')
                 .setFooter({
-                    text: 'Fire Wheels Development Progress'
+                    text: process.env.FOOTER_TEXT,
                 })
-                .setThumbnail('https://media.discordapp.net/attachments/1009982162851872849/1223138437222105129/f46c99716c68825f9a145201d2b2a86b.png?ex=6618c370&is=66064e70&hm=a8848bda8ed57fe63abe8fede8180348405716290d9cf5e7bf1c61a53e4ad699&=&format=webp&quality=lossless');
+                .setThumbnail(process.env.THUMBNAIL_URL);
 
             interaction.reply({ embeds: [embed] });
         }
